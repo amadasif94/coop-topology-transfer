@@ -1,0 +1,479 @@
+[
+  {
+    "run": 0,
+    "manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_0/run_manifest.json",
+    "sha256": "ae9e5caeed4cf45c36aa9355de758752a5f19fbd651218a451a5a3560c148137",
+    "arguments": {
+      "seed": 42,
+      "total_steps": 200000,
+      "warmup_steps": 10000,
+      "buffer_size": 100000,
+      "batch_size": 128,
+      "actor_lr": 5e-05,
+      "critic_lr": 0.0005,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "noise_std": 0.05,
+      "eval_every": 5000,
+      "save_every": 5000,
+      "eval_episodes": 10,
+      "max_reset_retries": 0,
+      "checkpoint_dir": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee69/mlp/mlp_run_0",
+      "cpu": false
+    },
+    "interface": {
+      "agent_obs_dim": 10,
+      "agent_obs_features": [
+        "time",
+        "price",
+        "soc",
+        "voltage_pu",
+        "load_kw",
+        "pv_kw",
+        "previous_action",
+        "feeder_grid_import_kw",
+        "feeder_voltage_deviation",
+        "feeder_curtailment_kw"
+      ],
+      "node_feature_dim": 7,
+      "node_features": [
+        "time",
+        "price",
+        "load_kw",
+        "pv_kw",
+        "soc_masked",
+        "voltage_pu",
+        "dess_indicator"
+      ],
+      "num_buses": 69,
+      "dess_buses": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        26,
+        64
+      ]
+    },
+    "battery": {
+      "capacity_kwh": 1000.0,
+      "max_charge_kw": 250.0,
+      "max_discharge_kw": 250.0,
+      "charge_efficiency": 0.95,
+      "discharge_efficiency": 0.95,
+      "efficiency": 0.95,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "soc_init": 0.5
+    },
+    "doe": {
+      "enabled": false,
+      "w": 0.015,
+      "delta_c": 0.01,
+      "pf_failure_mode": "logged_fallback",
+      "penalty_coef": 0.0
+    },
+    "backup": {
+      "backup_mode": "directional_incremental",
+      "pf_budget": 20,
+      "refinement_steps": 4,
+      "voltage_scale_pu": 0.01,
+      "relative_current_scale": 0.05,
+      "residual_penalty_enabled": false,
+      "residual_penalty_coefficient": 0.0
+    },
+    "current_ratings_a": [
+      255.0
+    ],
+    "validation_schedule": {
+      "schedule_id": "S-PER-v1",
+      "sha256": "f3c806d884acef78a8152d97bd17ea53a8f218a90fc6d6c774ea210753ce408a",
+      "feeder": "IEEE69",
+      "topology": "TP1",
+      "split": "val",
+      "episode_length": 96,
+      "rule": "4 Oct + 4 Nov days at 12.5/37.5/62.5/87.5 % daily-PV-energy rank per month",
+      "episodes": [
+        {
+          "episode_id": "val_2018-10-03",
+          "start_index": 26400,
+          "start_time": "2018-10-03 00:00:00+00:00",
+          "end_time": "2018-10-03 23:45:00+00:00",
+          "seed": 20261002
+        },
+        {
+          "episode_id": "val_2018-10-11",
+          "start_index": 27168,
+          "start_time": "2018-10-11 00:00:00+00:00",
+          "end_time": "2018-10-11 23:45:00+00:00",
+          "seed": 20261010
+        },
+        {
+          "episode_id": "val_2018-10-17",
+          "start_index": 27744,
+          "start_time": "2018-10-17 00:00:00+00:00",
+          "end_time": "2018-10-17 23:45:00+00:00",
+          "seed": 20261016
+        },
+        {
+          "episode_id": "val_2018-10-25",
+          "start_index": 28512,
+          "start_time": "2018-10-25 00:00:00+00:00",
+          "end_time": "2018-10-25 23:45:00+00:00",
+          "seed": 20261024
+        },
+        {
+          "episode_id": "val_2018-11-03",
+          "start_index": 29376,
+          "start_time": "2018-11-03 00:00:00+00:00",
+          "end_time": "2018-11-03 23:45:00+00:00",
+          "seed": 20261033
+        },
+        {
+          "episode_id": "val_2018-11-05",
+          "start_index": 29568,
+          "start_time": "2018-11-05 00:00:00+00:00",
+          "end_time": "2018-11-05 23:45:00+00:00",
+          "seed": 20261035
+        },
+        {
+          "episode_id": "val_2018-11-11",
+          "start_index": 30144,
+          "start_time": "2018-11-11 00:00:00+00:00",
+          "end_time": "2018-11-11 23:45:00+00:00",
+          "seed": 20261041
+        },
+        {
+          "episode_id": "val_2018-11-13",
+          "start_index": 30336,
+          "start_time": "2018-11-13 00:00:00+00:00",
+          "end_time": "2018-11-13 23:45:00+00:00",
+          "seed": 20261043
+        }
+      ]
+    },
+    "checkpoint_200000_exists": true,
+    "weights_loaded_locally": false
+  },
+  {
+    "run": 1,
+    "manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_1/run_manifest.json",
+    "sha256": "a4384d98ee0bacf09a04e1a32880abb1f1c9abb8259c7d709cb3e0d78e885f86",
+    "arguments": {
+      "seed": 43,
+      "total_steps": 200000,
+      "warmup_steps": 10000,
+      "buffer_size": 100000,
+      "batch_size": 128,
+      "actor_lr": 5e-05,
+      "critic_lr": 0.0005,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "noise_std": 0.05,
+      "eval_every": 5000,
+      "save_every": 5000,
+      "eval_episodes": 10,
+      "max_reset_retries": 0,
+      "checkpoint_dir": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee69/mlp/mlp_run_1",
+      "cpu": false
+    },
+    "interface": {
+      "agent_obs_dim": 10,
+      "agent_obs_features": [
+        "time",
+        "price",
+        "soc",
+        "voltage_pu",
+        "load_kw",
+        "pv_kw",
+        "previous_action",
+        "feeder_grid_import_kw",
+        "feeder_voltage_deviation",
+        "feeder_curtailment_kw"
+      ],
+      "node_feature_dim": 7,
+      "node_features": [
+        "time",
+        "price",
+        "load_kw",
+        "pv_kw",
+        "soc_masked",
+        "voltage_pu",
+        "dess_indicator"
+      ],
+      "num_buses": 69,
+      "dess_buses": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        26,
+        64
+      ]
+    },
+    "battery": {
+      "capacity_kwh": 1000.0,
+      "max_charge_kw": 250.0,
+      "max_discharge_kw": 250.0,
+      "charge_efficiency": 0.95,
+      "discharge_efficiency": 0.95,
+      "efficiency": 0.95,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "soc_init": 0.5
+    },
+    "doe": {
+      "enabled": false,
+      "w": 0.015,
+      "delta_c": 0.01,
+      "pf_failure_mode": "logged_fallback",
+      "penalty_coef": 0.0
+    },
+    "backup": {
+      "backup_mode": "directional_incremental",
+      "pf_budget": 20,
+      "refinement_steps": 4,
+      "voltage_scale_pu": 0.01,
+      "relative_current_scale": 0.05,
+      "residual_penalty_enabled": false,
+      "residual_penalty_coefficient": 0.0
+    },
+    "current_ratings_a": [
+      255.0
+    ],
+    "validation_schedule": {
+      "schedule_id": "S-PER-v1",
+      "sha256": "f3c806d884acef78a8152d97bd17ea53a8f218a90fc6d6c774ea210753ce408a",
+      "feeder": "IEEE69",
+      "topology": "TP1",
+      "split": "val",
+      "episode_length": 96,
+      "rule": "4 Oct + 4 Nov days at 12.5/37.5/62.5/87.5 % daily-PV-energy rank per month",
+      "episodes": [
+        {
+          "episode_id": "val_2018-10-03",
+          "start_index": 26400,
+          "start_time": "2018-10-03 00:00:00+00:00",
+          "end_time": "2018-10-03 23:45:00+00:00",
+          "seed": 20261002
+        },
+        {
+          "episode_id": "val_2018-10-11",
+          "start_index": 27168,
+          "start_time": "2018-10-11 00:00:00+00:00",
+          "end_time": "2018-10-11 23:45:00+00:00",
+          "seed": 20261010
+        },
+        {
+          "episode_id": "val_2018-10-17",
+          "start_index": 27744,
+          "start_time": "2018-10-17 00:00:00+00:00",
+          "end_time": "2018-10-17 23:45:00+00:00",
+          "seed": 20261016
+        },
+        {
+          "episode_id": "val_2018-10-25",
+          "start_index": 28512,
+          "start_time": "2018-10-25 00:00:00+00:00",
+          "end_time": "2018-10-25 23:45:00+00:00",
+          "seed": 20261024
+        },
+        {
+          "episode_id": "val_2018-11-03",
+          "start_index": 29376,
+          "start_time": "2018-11-03 00:00:00+00:00",
+          "end_time": "2018-11-03 23:45:00+00:00",
+          "seed": 20261033
+        },
+        {
+          "episode_id": "val_2018-11-05",
+          "start_index": 29568,
+          "start_time": "2018-11-05 00:00:00+00:00",
+          "end_time": "2018-11-05 23:45:00+00:00",
+          "seed": 20261035
+        },
+        {
+          "episode_id": "val_2018-11-11",
+          "start_index": 30144,
+          "start_time": "2018-11-11 00:00:00+00:00",
+          "end_time": "2018-11-11 23:45:00+00:00",
+          "seed": 20261041
+        },
+        {
+          "episode_id": "val_2018-11-13",
+          "start_index": 30336,
+          "start_time": "2018-11-13 00:00:00+00:00",
+          "end_time": "2018-11-13 23:45:00+00:00",
+          "seed": 20261043
+        }
+      ]
+    },
+    "checkpoint_200000_exists": true,
+    "weights_loaded_locally": false
+  },
+  {
+    "run": 2,
+    "manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_2/run_manifest.json",
+    "sha256": "f33dc7b279b60c525560de2ad3f81fadac97f200517de9edf7469b2e66801176",
+    "arguments": {
+      "seed": 44,
+      "total_steps": 200000,
+      "warmup_steps": 10000,
+      "buffer_size": 100000,
+      "batch_size": 128,
+      "actor_lr": 5e-05,
+      "critic_lr": 0.0005,
+      "gamma": 0.99,
+      "tau": 0.005,
+      "noise_std": 0.05,
+      "eval_every": 5000,
+      "save_every": 5000,
+      "eval_episodes": 10,
+      "max_reset_retries": 0,
+      "checkpoint_dir": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee69/mlp/mlp_run_2",
+      "cpu": false
+    },
+    "interface": {
+      "agent_obs_dim": 10,
+      "agent_obs_features": [
+        "time",
+        "price",
+        "soc",
+        "voltage_pu",
+        "load_kw",
+        "pv_kw",
+        "previous_action",
+        "feeder_grid_import_kw",
+        "feeder_voltage_deviation",
+        "feeder_curtailment_kw"
+      ],
+      "node_feature_dim": 7,
+      "node_features": [
+        "time",
+        "price",
+        "load_kw",
+        "pv_kw",
+        "soc_masked",
+        "voltage_pu",
+        "dess_indicator"
+      ],
+      "num_buses": 69,
+      "dess_buses": [
+        13,
+        15,
+        17,
+        19,
+        21,
+        23,
+        25,
+        26,
+        64
+      ]
+    },
+    "battery": {
+      "capacity_kwh": 1000.0,
+      "max_charge_kw": 250.0,
+      "max_discharge_kw": 250.0,
+      "charge_efficiency": 0.95,
+      "discharge_efficiency": 0.95,
+      "efficiency": 0.95,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "soc_init": 0.5
+    },
+    "doe": {
+      "enabled": false,
+      "w": 0.015,
+      "delta_c": 0.01,
+      "pf_failure_mode": "logged_fallback",
+      "penalty_coef": 0.0
+    },
+    "backup": {
+      "backup_mode": "directional_incremental",
+      "pf_budget": 20,
+      "refinement_steps": 4,
+      "voltage_scale_pu": 0.01,
+      "relative_current_scale": 0.05,
+      "residual_penalty_enabled": false,
+      "residual_penalty_coefficient": 0.0
+    },
+    "current_ratings_a": [
+      255.0
+    ],
+    "validation_schedule": {
+      "schedule_id": "S-PER-v1",
+      "sha256": "f3c806d884acef78a8152d97bd17ea53a8f218a90fc6d6c774ea210753ce408a",
+      "feeder": "IEEE69",
+      "topology": "TP1",
+      "split": "val",
+      "episode_length": 96,
+      "rule": "4 Oct + 4 Nov days at 12.5/37.5/62.5/87.5 % daily-PV-energy rank per month",
+      "episodes": [
+        {
+          "episode_id": "val_2018-10-03",
+          "start_index": 26400,
+          "start_time": "2018-10-03 00:00:00+00:00",
+          "end_time": "2018-10-03 23:45:00+00:00",
+          "seed": 20261002
+        },
+        {
+          "episode_id": "val_2018-10-11",
+          "start_index": 27168,
+          "start_time": "2018-10-11 00:00:00+00:00",
+          "end_time": "2018-10-11 23:45:00+00:00",
+          "seed": 20261010
+        },
+        {
+          "episode_id": "val_2018-10-17",
+          "start_index": 27744,
+          "start_time": "2018-10-17 00:00:00+00:00",
+          "end_time": "2018-10-17 23:45:00+00:00",
+          "seed": 20261016
+        },
+        {
+          "episode_id": "val_2018-10-25",
+          "start_index": 28512,
+          "start_time": "2018-10-25 00:00:00+00:00",
+          "end_time": "2018-10-25 23:45:00+00:00",
+          "seed": 20261024
+        },
+        {
+          "episode_id": "val_2018-11-03",
+          "start_index": 29376,
+          "start_time": "2018-11-03 00:00:00+00:00",
+          "end_time": "2018-11-03 23:45:00+00:00",
+          "seed": 20261033
+        },
+        {
+          "episode_id": "val_2018-11-05",
+          "start_index": 29568,
+          "start_time": "2018-11-05 00:00:00+00:00",
+          "end_time": "2018-11-05 23:45:00+00:00",
+          "seed": 20261035
+        },
+        {
+          "episode_id": "val_2018-11-11",
+          "start_index": 30144,
+          "start_time": "2018-11-11 00:00:00+00:00",
+          "end_time": "2018-11-11 23:45:00+00:00",
+          "seed": 20261041
+        },
+        {
+          "episode_id": "val_2018-11-13",
+          "start_index": 30336,
+          "start_time": "2018-11-13 00:00:00+00:00",
+          "end_time": "2018-11-13 23:45:00+00:00",
+          "seed": 20261043
+        }
+      ]
+    },
+    "checkpoint_200000_exists": true,
+    "weights_loaded_locally": false
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "schema": "ieee69-tp10-equivalence/1",
+  "files": {
+    "line_data": {
+      "historical_sha256": "be1c8e05bde86391209f16807339161cd53060b674b9b2e8b6c6d66bf6802e32",
+      "current_sha256": "94a64294a9c2efa15be52c1fb416be47ef228ad1f100eec978aa038eb059966e",
+      "approved_row": "26,64,1.041,0.5302,0,tie,255.0"
+    },
+    "gridtensor_line_data": {
+      "historical_sha256": "69a654e3268fcc2d32a55ad5564d64b814e76e0baa5499dce0c5d746a0cbd827",
+      "current_sha256": "86fee34bd7ec3a680b7860faa1ce0522ff3feeda2ace49e8db90a9b48ca928fd",
+      "approved_row": "27,65,1.041,0.5302,0.0,0,1.0"
+    }
+  },
+  "snapshots": [
+    {
+      "load_scale": 0.4,
+      "pv_to_static_load": 0.0,
+      "battery_kw": 0.0,
+      "min_voltage": 0.9656420350074768,
+      "max_voltage": 1.0,
+      "voltage_difference": 0.0,
+      "current_difference": 0.0,
+      "converged": true
+    },
+    {
+      "load_scale": 1.0,
+      "pv_to_static_load": 0.0,
+      "battery_kw": 0.0,
+      "min_voltage": 0.9091877341270447,
+      "max_voltage": 1.0,
+      "voltage_difference": 0.0,
+      "current_difference": 0.0,
+      "converged": true
+    },
+    {
+      "load_scale": 0.5,
+      "pv_to_static_load": 1.2,
+      "battery_kw": -125.0,
+      "min_voltage": 0.9714326858520508,
+      "max_voltage": 1.0227597951889038,
+      "voltage_difference": 0.0,
+      "current_difference": 0.0,
+      "converged": true
+    },
+    {
+      "load_scale": 0.8,
+      "pv_to_static_load": 0.2,
+      "battery_kw": 125.0,
+      "min_voltage": 0.9549002647399902,
+      "max_voltage": 1.0171393156051636,
+      "voltage_difference": 0.0,
+      "current_difference": 0.0,
+      "converged": true
+    }
+  ],
+  "active_branches": 68,
+  "graph_equal": true,
+  "graph_feature_values_equal": true,
+  "solver_order_equal": true,
+  "physical_pf_equal": true,
+  "runtime_verified": false,
+  "runtime_status": "PENDING RIT: full DESSEnv observations/rewards/SOC/backup trajectory equivalence"
+}

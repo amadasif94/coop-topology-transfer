@@ -1,0 +1,116 @@
+{
+  "feeder": "ieee69",
+  "runs": [
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_0/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_0/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_0/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_0/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_1/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_1/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_1/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_1/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_2/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_2/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_2/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A3/seed_2/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_0/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_0/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_0/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_0/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_1/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_1/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_1/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_1/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_2/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_2/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_2/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee69/mlp/A0/seed_2/test/load_x130"
+  ],
+  "missing_prerequisites": [],
+  "seeds_present": {
+    "mlp_a0": [
+      0,
+      1,
+      2
+    ],
+    "mlp_a3": [
+      0,
+      1,
+      2
+    ]
+  },
+  "soc_near": 0.001,
+  "near_min_definition": "post-step SoC <= soc_min + SOC_NEAR",
+  "batteries": [
+    {
+      "battery": 0,
+      "bus": 13,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 1,
+      "bus": 15,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 2,
+      "bus": 17,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 3,
+      "bus": 19,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 4,
+      "bus": 21,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 5,
+      "bus": 23,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 6,
+      "bus": 25,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 7,
+      "bus": 26,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    },
+    {
+      "battery": 8,
+      "bus": 64,
+      "soc_min": 0.1,
+      "soc_max": 0.9,
+      "capacity_kwh": 850.0
+    }
+  ],
+  "scales": [
+    1.0,
+    1.1,
+    1.2,
+    1.3
+  ],
+  "incomplete_battery_days": 0
+}

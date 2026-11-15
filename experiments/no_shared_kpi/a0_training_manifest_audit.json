@@ -1,0 +1,137 @@
+[
+  {
+    "run": 0,
+    "manifest": "results\\checkpoints\\maddpg_ieee33\\mlp\\mlp_run_0\\run_manifest.json",
+    "sha256": "7cefa37191c1d56ff7c0ee4bc4604ec2029ab8c25943f4a3b6156dc5bbd16641",
+    "baseline_validation": "PASS",
+    "seed": 42,
+    "total_steps": 200000,
+    "inputs": [
+      {
+        "input": "bus_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "line_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "dess_buses",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "gridtensor_bus_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "gridtensor_line_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "processed_time_series",
+        "available": false,
+        "hash_matches": null
+      },
+      {
+        "input": "graph_sequence",
+        "available": false,
+        "hash_matches": null
+      }
+    ]
+  },
+  {
+    "run": 1,
+    "manifest": "results\\checkpoints\\maddpg_ieee33\\mlp\\mlp_run_1\\run_manifest.json",
+    "sha256": "701aa8ad10a18dc0fd367174f3ebe4a627bc36949eca44eb12d2e6b57c0ce071",
+    "baseline_validation": "PASS",
+    "seed": 43,
+    "total_steps": 200000,
+    "inputs": [
+      {
+        "input": "bus_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "line_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "dess_buses",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "gridtensor_bus_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "gridtensor_line_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "processed_time_series",
+        "available": false,
+        "hash_matches": null
+      },
+      {
+        "input": "graph_sequence",
+        "available": false,
+        "hash_matches": null
+      }
+    ]
+  },
+  {
+    "run": 2,
+    "manifest": "results\\checkpoints\\maddpg_ieee33\\mlp\\mlp_run_2\\run_manifest.json",
+    "sha256": "634565512f0058857559e46e1049a930a49b2caa5d7521ea08d5d3916ab5b794",
+    "baseline_validation": "PASS",
+    "seed": 44,
+    "total_steps": 200000,
+    "inputs": [
+      {
+        "input": "bus_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "line_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "dess_buses",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "gridtensor_bus_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "gridtensor_line_data",
+        "available": true,
+        "hash_matches": true
+      },
+      {
+        "input": "processed_time_series",
+        "available": false,
+        "hash_matches": null
+      },
+      {
+        "input": "graph_sequence",
+        "available": false,
+        "hash_matches": null
+      }
+    ]
+  }
+]

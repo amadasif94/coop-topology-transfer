@@ -1,0 +1,5 @@
+feeder,controller,label,seed,topology,scale,start_index,decisions,controller_s,max_decision_s
+ieee33,price_quantile_rbc,price_quantile_rbc,,TP1,1.0,32064,96,0.008730248548090458,0.00033414317294955254
+ieee33,price_quantile_rbc,price_quantile_rbc,,TP1,1.1,32064,96,0.008469104999676347,9.721587412059307e-05
+ieee33,price_quantile_rbc,price_quantile_rbc,,TP1,1.2,32064,96,0.00847960403189063,0.00012394506484270096
+ieee33,price_quantile_rbc,price_quantile_rbc,,TP1,1.3,32064,96,0.008387658977881074,9.650806896388531e-05

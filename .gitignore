@@ -1,0 +1,73 @@
+# ============================================================
+# Graph-MARL: Final Research Reproducibility Release
+# ============================================================
+
+# Python caches and generated files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local settings
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+env/
+conda/
+
+# System and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files and logs
+tmp/
+temp/
+pip_cache/
+*.log
+slurm-*.out
+slurm-*.err
+
+# ------------------------------------------------------------
+# Datasets
+# ------------------------------------------------------------
+
+# Exclude legacy MPC/SMPC processed data
+data/processed/mpc_smpc/
+
+# Exclude bulky raw SMART-DS data, but keep the NYISO price CSV
+data/smartds_raw/*
+!data/smartds_raw/nyiso_2018_lbmp.csv
+
+# data/network/ and data/time_series/ remain available for Git
+
+# ------------------------------------------------------------
+# Model checkpoints
+# ------------------------------------------------------------
+
+# Best MARL checkpoints will be distributed through Releases
+*.pt
+*.pth
+*.ckpt
+
+# ------------------------------------------------------------
+# Experimental results
+# ------------------------------------------------------------
+
+# Exclude results by default to prevent accidentally staging
+# hundreds of gigabytes of training and evaluation artifacts.
+# Approved final summaries, manifests, forecasts, and analyses
+# will be explicitly included using git add -f.
+results/
+
+# ------------------------------------------------------------
+# HPC execution scripts
+# ------------------------------------------------------------
+
+# Keep required .slurm scripts in the publication release.
+# Ignore generated scheduler output, not the scripts themselves.

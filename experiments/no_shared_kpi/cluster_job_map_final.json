@@ -1,0 +1,29 @@
+{
+  "runs": {
+    "0": {
+      "baseline_training_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee33/mlp/mlp_run_0/run_manifest.json",
+      "baseline_evaluation_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/topology_generalization/csv/mlp_ieee33_tp_full_eval_run0_best/run_manifest.json",
+      "selections": {
+        "no_shared_kpi": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/ablations/ieee33/no_shared_kpi/run_0/selections/ieee33/no_shared_kpi/run_0/ieee33_no_shared_kpi_run_0_v1_20261027T035213Z/selection.json",
+        "no_centralized_critic": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/ablations/ieee33/no_centralized_critic/run_0/selections/ieee33/no_centralized_critic/run_0/ieee33_no_centralized_critic_run_0_v1_20261027T034727Z/selection.json"
+      }
+    },
+    "1": {
+      "baseline_training_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee33/mlp/mlp_run_1/run_manifest.json",
+      "baseline_evaluation_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/topology_generalization/csv/mlp_ieee33_tp_full_eval_run1_best/run_manifest.json",
+      "selections": {
+        "no_shared_kpi": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/ablations/ieee33/no_shared_kpi/run_1/selections/ieee33/no_shared_kpi/run_1/ieee33_no_shared_kpi_run_1_v1_20261027T035236Z/selection.json",
+        "no_centralized_critic": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/ablations/ieee33/no_centralized_critic/run_1/selections/ieee33/no_centralized_critic/run_1/ieee33_no_centralized_critic_run_1_v1_20261027T034915Z/selection.json"
+      }
+    },
+    "2": {
+      "baseline_training_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee33/mlp/mlp_run_2/run_manifest.json",
+      "baseline_evaluation_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/topology_generalization/csv/mlp_ieee33_tp_full_eval_run2_best/run_manifest.json",
+      "selections": {
+        "no_shared_kpi": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/ablations/ieee33/no_shared_kpi/run_2/selections/ieee33/no_shared_kpi/run_2/ieee33_no_shared_kpi_run_2_v1_20261027T034657Z/selection.json",
+        "no_centralized_critic": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/ablations/ieee33/no_centralized_critic/run_2/selections/ieee33/no_centralized_critic/run_2/ieee33_no_centralized_critic_run_2_v1_20261027T043523Z/selection.json"
+      }
+    }
+  },
+  "analysis_arguments": []
+}

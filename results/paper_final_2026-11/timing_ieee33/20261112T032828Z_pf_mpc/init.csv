@@ -1,0 +1,5 @@
+controller,seed,topology,scale,network_model_build_s
+pf_mpc,,TP1,1.0,0.002497861860319972
+pf_mpc,,TP1,1.1,0.0017406761180609465
+pf_mpc,,TP1,1.2,0.0017616439145058393
+pf_mpc,,TP1,1.3,0.0017069380264729261

@@ -1,0 +1,31 @@
+{
+  "schema": "graph-marl-dess-forecast/2",
+  "feeder": "ieee33",
+  "stage": "dec",
+  "month": "2018-12",
+  "period_split": "test",
+  "target": "load_node_5",
+  "kind": "load",
+  "days": 31,
+  "first_day": "2018-12-01 00:00:00",
+  "last_day": "2018-12-31 00:00:00",
+  "max_days": null,
+  "issues_per_day": 96,
+  "horizon": "rest of the issuing day (96 - k target rows at decision step k)",
+  "information_rule": "forecast issued at decision row t for target rows t .. day end: realized target values of rows < t only (row t is not yet observed), predictions for rows t .. r-1, calendar features of row r, day-ahead prices of rows r, r-1, r-96 (same day or past)",
+  "series_path": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/data/time_series/processed_15min_smartds.csv",
+  "series_sha256": "f6967b5847cde009f1053a6d7bea1a65ff444517c55215cad10fd3a05d3cb315",
+  "model_record": "results/soc_feasible_affine_v2/ieee33/forecast_mpc/models/dec/load_node_5.json",
+  "model_dir_sha256": "eaa415bdd38052e7f7ce57bcde8d7473caef0ccad9e29f08b2027b5eef1d4fc8",
+  "model_cutoff_time": "2018-12-01 00:00:00",
+  "autogluon_version": "1.5.0",
+  "clip_lower": 0.0,
+  "clip_upper": null,
+  "clipping": {
+    "below_lower": 0,
+    "above_upper": 0,
+    "predictions": 144336
+  },
+  "generation_seconds": 80.10851663502399,
+  "npz_sha256": "287beb1b99b5bed69e25b2c500190bf6f3524ecd558961255bd48f4948e1e615"
+}

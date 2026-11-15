@@ -1,0 +1,74 @@
+{
+  "host": "uagc20-06.arcc.albany.edu",
+  "platform": "Linux-5.15.0-325.221.6.6.el9uek.x86_64-x86_64-with-glibc2.34",
+  "python": "3.10.20",
+  "processor": "x86_64",
+  "cpu_count": 64,
+  "affinity": 64,
+  "omp_threads": "4",
+  "mkl_threads": "4",
+  "openblas_threads": "4",
+  "cuda_visible_devices": "",
+  "requested_threads": 4,
+  "slurm_job": "118373",
+  "slurm_cpus": "4",
+  "slurm_partition": "batch",
+  "cpu_model": "Intel(R) Xeon(R) Gold 5218 CPU @ 2.30GHz",
+  "numpy_version": "2.2.5",
+  "scipy_version": "1.15.3",
+  "pandas_version": "2.3.3",
+  "torch_version": "2.9.1+cu128",
+  "torch_threads": 4,
+  "torch_cuda_available": false,
+  "controller": "forecast_mpc",
+  "label": "forecast_mpc",
+  "fmpc_forecast": "precomputed",
+  "warmup_days": 1,
+  "max_days": 1,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "topologies": [
+    "TP1"
+  ],
+  "scales": [
+    1.0,
+    1.1,
+    1.2,
+    1.3
+  ],
+  "solver_backend": "gurobi",
+  "gurobi": {
+    "backend": "gurobi",
+    "mip_rel_gap": 0.0001,
+    "time_limit_s": 60.0,
+    "accept_feasible_incumbent": true,
+    "seed": 42,
+    "gurobi_version": "13.0.1",
+    "threads": 4,
+    "incumbent_policy": "a feasible incumbent at the time limit is accepted and labelled time_limit_feasible / proven_optimal=False; no incumbent, infeasible, unbounded or numeric trouble -> 0 kW fallback step",
+    "objective_sense": "minimize"
+  },
+  "gurobi_verification": {
+    "verified": "gurobi_invocation_records",
+    "session": "e952e5ab7a0f43a8ba1945f0c745ebc7",
+    "solves": 768,
+    "gurobi_calls": 924,
+    "lp_calls": 768,
+    "milp_calls": 156,
+    "highs_calls": 0
+  },
+  "gurobi_env_start_s": 0.22592701599933207,
+  "solver_settings": {
+    "voltage_margin_pu": 0.005,
+    "branch_margin": 0.95,
+    "slack_penalty": 10000.0,
+    "eps_curtailment": 0.0001,
+    "eps_throughput": 1e-06,
+    "time_limit_s": 60.0,
+    "mip_rel_gap": 0.0001
+  },
+  "allow_non_optimal": true
+}

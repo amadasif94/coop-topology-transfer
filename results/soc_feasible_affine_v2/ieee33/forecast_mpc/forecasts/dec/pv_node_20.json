@@ -1,0 +1,31 @@
+{
+  "schema": "graph-marl-dess-forecast/2",
+  "feeder": "ieee33",
+  "stage": "dec",
+  "month": "2018-12",
+  "period_split": "test",
+  "target": "pv_node_20",
+  "kind": "pv",
+  "days": 31,
+  "first_day": "2018-12-01 00:00:00",
+  "last_day": "2018-12-31 00:00:00",
+  "max_days": null,
+  "issues_per_day": 96,
+  "horizon": "rest of the issuing day (96 - k target rows at decision step k)",
+  "information_rule": "forecast issued at decision row t for target rows t .. day end: realized target values of rows < t only (row t is not yet observed), predictions for rows t .. r-1, calendar features of row r, day-ahead prices of rows r, r-1, r-96 (same day or past)",
+  "series_path": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/data/time_series/processed_15min_smartds.csv",
+  "series_sha256": "f6967b5847cde009f1053a6d7bea1a65ff444517c55215cad10fd3a05d3cb315",
+  "model_record": "results/soc_feasible_affine_v2/ieee33/forecast_mpc/models/dec/pv_node_20.json",
+  "model_dir_sha256": "394908d6b0f0cae659a643fdd630b1d94ee8d1c7a18300919415e72b08facade",
+  "model_cutoff_time": "2018-12-01 00:00:00",
+  "autogluon_version": "1.5.0",
+  "clip_lower": 0.0,
+  "clip_upper": 75.40617706343944,
+  "clipping": {
+    "below_lower": 34367,
+    "above_upper": 0,
+    "predictions": 144336
+  },
+  "generation_seconds": 105.38099991500349,
+  "npz_sha256": "1c7b05fd1e7020c7aadd8af3d8c575639abc93e1844bebe9945362e2f9c9d62e"
+}

@@ -1,0 +1,5 @@
+controller,seed,topology,scale,forecast_init_s,gurobi_env_start_s,network_model_build_s
+forecast_mpc,,TP1,1.0,0.0,0.22592701599933207,0.0038221459835767746
+forecast_mpc,,TP1,1.1,0.0,,0.0034913530107587576
+forecast_mpc,,TP1,1.2,0.0,,0.0035511949099600315
+forecast_mpc,,TP1,1.3,0.0,,0.003421046072617173

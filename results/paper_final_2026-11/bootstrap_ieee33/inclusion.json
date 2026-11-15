@@ -1,0 +1,358 @@
+{
+  "feeder": "ieee33",
+  "results_root": "results/soc_feasible_affine_v2",
+  "resamples": 10000,
+  "sign_flips": 10000,
+  "rng_seed": 20261110,
+  "scales": [
+    1.0,
+    1.1,
+    1.2,
+    1.3
+  ],
+  "ni_margins": {},
+  "coverage": [
+    {
+      "controller": "forecast_mpc",
+      "scale": 1.0,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "forecast_mpc",
+      "scale": 1.1,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "forecast_mpc",
+      "scale": 1.2,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "forecast_mpc",
+      "scale": 1.3,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a0",
+      "scale": 1.0,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a0",
+      "scale": 1.1,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a0",
+      "scale": 1.2,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a0",
+      "scale": 1.3,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a1",
+      "scale": 1.0,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a1",
+      "scale": 1.1,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a1",
+      "scale": 1.2,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a1",
+      "scale": 1.3,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a2",
+      "scale": 1.0,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a2",
+      "scale": 1.1,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a2",
+      "scale": 1.2,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a2",
+      "scale": 1.3,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a3",
+      "scale": 1.0,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a3",
+      "scale": 1.1,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a3",
+      "scale": 1.2,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "mlp_a3",
+      "scale": 1.3,
+      "rows": 651,
+      "seeds": 3,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "pf_mpc",
+      "scale": 1.0,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "pf_mpc",
+      "scale": 1.1,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "pf_mpc",
+      "scale": 1.2,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "pf_mpc",
+      "scale": 1.3,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "price_quantile_rbc",
+      "scale": 1.0,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "price_quantile_rbc",
+      "scale": 1.1,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "price_quantile_rbc",
+      "scale": 1.2,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "price_quantile_rbc",
+      "scale": 1.3,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "zero_action_no_backup",
+      "scale": 1.0,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "zero_action_no_backup",
+      "scale": 1.1,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "zero_action_no_backup",
+      "scale": 1.2,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    },
+    {
+      "controller": "zero_action_no_backup",
+      "scale": 1.3,
+      "rows": 217,
+      "seeds": 0,
+      "dates": 31,
+      "topologies": 7
+    }
+  ],
+  "runs": [
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_0/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_0/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_0/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_0/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_1/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_1/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_1/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_1/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_2/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_2/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_2/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A0/seed_2/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_0/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_0/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_0/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_0/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_1/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_1/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_1/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_1/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_2/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_2/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_2/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A1/seed_2/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_0/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_0/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_0/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_0/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_1/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_1/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_1/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_1/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_2/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_2/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_2/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A2/seed_2/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_0/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_0/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_0/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_0/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_1/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_1/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_1/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_1/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_2/test/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_2/test/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_2/test/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/mlp/A3/seed_2/test/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/pf_mpc/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/pf_mpc/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/pf_mpc/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/pf_mpc/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/price_quantile_rbc/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/price_quantile_rbc/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/price_quantile_rbc/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/price_quantile_rbc/load_x130",
+    "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x130"
+  ],
+  "excluded": [],
+  "missing_columns": {},
+  "unavailable_optional_columns": {
+    "b3_terminal_shortfall_mean": {
+      "zero_action_no_backup": [
+        "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x100",
+        "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x110",
+        "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x120",
+        "results/soc_feasible_affine_v2/ieee33/zero_action_no_backup/load_x130"
+      ]
+    }
+  },
+  "fmpc_backend": "gurobi",
+  "fmpc_backend_verified": [
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x100",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x110",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x120",
+    "results/soc_feasible_affine_v2/ieee33/forecast_mpc/load_x130"
+  ],
+  "coverage_problems": []
+}

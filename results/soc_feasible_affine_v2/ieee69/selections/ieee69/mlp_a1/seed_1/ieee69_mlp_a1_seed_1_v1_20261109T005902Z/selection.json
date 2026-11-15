@@ -1,0 +1,823 @@
+{
+ "candidates": [
+  {
+   "checkpoint_sha256": "a3fcea9c8e211a044426eb3ae6807dbf519f78122f7d56de8663ffa23188e33f",
+   "eligible": true,
+   "metric_value": -1896.3980369619985,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_15000",
+   "step": 15000
+  },
+  {
+   "checkpoint_sha256": "c11d9e702bf31a3f1eaa73ab8c867adfc5c2523ddc6aaec8b475e6e090784845",
+   "eligible": true,
+   "metric_value": -1850.5415141032179,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_20000",
+   "step": 20000
+  },
+  {
+   "checkpoint_sha256": "673a9f61ac4e86fee8a725315ea9ce48b968874fd2d8e92e589bff88618b2c3a",
+   "eligible": true,
+   "metric_value": -1880.5389857047894,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_25000",
+   "step": 25000
+  },
+  {
+   "checkpoint_sha256": "d5d26516b808a0db6cdfe63da4b77ea2349db45928e89d263f3001f6bc6cb40c",
+   "eligible": true,
+   "metric_value": -1894.616179212195,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_30000",
+   "step": 30000
+  },
+  {
+   "checkpoint_sha256": "f68afcad1b0cd0456a690c2c9310b6e20b2290cd18efba24be1d06b3fee82f7f",
+   "eligible": true,
+   "metric_value": -1861.984716020511,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_35000",
+   "step": 35000
+  },
+  {
+   "checkpoint_sha256": "982592123f04604f262c93789dc56258687fb4290aba19411df8d4318f4b99a6",
+   "eligible": true,
+   "metric_value": -1879.613710588214,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_40000",
+   "step": 40000
+  },
+  {
+   "checkpoint_sha256": "520d8225bf7113aafd649a92cbbc34dd1ace73f2a9ef2cb2d31667b835b437b2",
+   "eligible": true,
+   "metric_value": -1880.1301746281824,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_45000",
+   "step": 45000
+  },
+  {
+   "checkpoint_sha256": "fdf4d4d3205b99f5431cd61f9b8d2f8cbe24dced80c29f4cedda01e323269c17",
+   "eligible": true,
+   "metric_value": -1869.2198984316788,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_50000",
+   "step": 50000
+  },
+  {
+   "checkpoint_sha256": "37fc706021fa09a54d060b43f402bf68307ede1a9840b944f9c2c134073c555e",
+   "eligible": true,
+   "metric_value": -1899.3835845314954,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_55000",
+   "step": 55000
+  },
+  {
+   "checkpoint_sha256": "124001c99848aaeceed580341fbbccd3abcfd3fac6067307ee27de40945c0a5e",
+   "eligible": true,
+   "metric_value": -1854.091322115522,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_60000",
+   "step": 60000
+  },
+  {
+   "checkpoint_sha256": "0f382576f2fcd99bd00ac9fad371d28275088fe559c861307a07789e3cd7f5cd",
+   "eligible": true,
+   "metric_value": -1872.6369326037436,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_65000",
+   "step": 65000
+  },
+  {
+   "checkpoint_sha256": "2a8b217f520932d0c21e0b78a411a5111d2b2518a6c0124285fe8e58de0ef5ce",
+   "eligible": true,
+   "metric_value": -1888.3616677705668,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_70000",
+   "step": 70000
+  },
+  {
+   "checkpoint_sha256": "fc8de1aa766ff6ab3828db997b88f2d41b86db6775670253d151ef961920c308",
+   "eligible": true,
+   "metric_value": -1895.650178573157,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_75000",
+   "step": 75000
+  },
+  {
+   "checkpoint_sha256": "2f8f1e6d0a35e9b22dec65aa2af41d8d44ca92cc9681655c73aaacf22c25cdf3",
+   "eligible": true,
+   "metric_value": -1884.537834495618,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_80000",
+   "step": 80000
+  },
+  {
+   "checkpoint_sha256": "c55f864946d055f031bbc96b74af12978433598efa3a6544e68315e1b3b07cc8",
+   "eligible": true,
+   "metric_value": -1912.2934262043848,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_85000",
+   "step": 85000
+  },
+  {
+   "checkpoint_sha256": "f00526bec6b674bf1a9c48510e23fc52a091f0d2ec3472445a5a0c8a32512b03",
+   "eligible": true,
+   "metric_value": -1877.1294793324691,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_90000",
+   "step": 90000
+  },
+  {
+   "checkpoint_sha256": "8ad0057c6438f8cfd5f25539feab3ffdc46da495993f9f1d5947af4523341cb2",
+   "eligible": true,
+   "metric_value": -1900.5255613587321,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_95000",
+   "step": 95000
+  },
+  {
+   "checkpoint_sha256": "6cf3b6e656a4896253fcd3a4969606556a5871244ef581ae47b2c34a05df9579",
+   "eligible": true,
+   "metric_value": -1899.1956370887237,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_100000",
+   "step": 100000
+  },
+  {
+   "checkpoint_sha256": "82b8f0f4d85858fe1471931c981edb9d2f25fab70d542eee6f03e7d9eff769d1",
+   "eligible": true,
+   "metric_value": -1905.5289817310206,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_105000",
+   "step": 105000
+  },
+  {
+   "checkpoint_sha256": "a4bb63ff405c66be0a44202b7997c5a21edb723a281503d6aae741c3aa8c87ee",
+   "eligible": true,
+   "metric_value": -1897.0861165209767,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_110000",
+   "step": 110000
+  },
+  {
+   "checkpoint_sha256": "da63f709b1161050211a631b7f491cb442c586d095176b775d8328cdd7ecad20",
+   "eligible": true,
+   "metric_value": -1894.560853884533,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_115000",
+   "step": 115000
+  },
+  {
+   "checkpoint_sha256": "ce13a2d5305f1ff440decd2ea5a395d3e5891254964eec9ced2acc714d21b08c",
+   "eligible": true,
+   "metric_value": -1911.2091054075106,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_120000",
+   "step": 120000
+  },
+  {
+   "checkpoint_sha256": "a2a903a1490feda5bd211d4079aa4f206d2bcf44714a4dd0ac499ec93988a516",
+   "eligible": true,
+   "metric_value": -1914.9606364646245,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_125000",
+   "step": 125000
+  },
+  {
+   "checkpoint_sha256": "59379c2ef09b7f22c6a07c5387142e49be55d2ed2e0f498fb0cc4d22f5da796e",
+   "eligible": true,
+   "metric_value": -1917.0092763993177,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_130000",
+   "step": 130000
+  },
+  {
+   "checkpoint_sha256": "7540727694e985400c5f290aa9de1688241460ec00ee127fb75b05e9b63a7c52",
+   "eligible": true,
+   "metric_value": -1914.8524580447643,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_135000",
+   "step": 135000
+  },
+  {
+   "checkpoint_sha256": "45ad25203472a75367e5239b18441f8575e0206f66171388358eeef84e7bf387",
+   "eligible": true,
+   "metric_value": -1893.4723115490924,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_140000",
+   "step": 140000
+  },
+  {
+   "checkpoint_sha256": "b48fa020a2eb3b84224f94b49a3751381dd7d9ae8f1ea578faff065ec7cd6852",
+   "eligible": true,
+   "metric_value": -1981.5730829309055,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_145000",
+   "step": 145000
+  },
+  {
+   "checkpoint_sha256": "24ceebf1e30f81aeb4b137ebbf9e3a6ea1452f484ee64fc7eb3e6f51bc6ac027",
+   "eligible": true,
+   "metric_value": -1913.2193694126902,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_150000",
+   "step": 150000
+  },
+  {
+   "checkpoint_sha256": "df7197f6527fca76ac4ddce53590226c798e3842c24c95605839e8f24ce64061",
+   "eligible": true,
+   "metric_value": -1901.2711160430895,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_155000",
+   "step": 155000
+  },
+  {
+   "checkpoint_sha256": "f7a3d24c2efa50ac40699b2659f7c2056c94e1b9e7a1cd6ec81f192465cb73a4",
+   "eligible": true,
+   "metric_value": -1903.9923011096967,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_160000",
+   "step": 160000
+  },
+  {
+   "checkpoint_sha256": "57092e59e02ee56bf007d2f621e93381c8d7ed3b6a8c8867d2fac40a1a76d845",
+   "eligible": true,
+   "metric_value": -1894.5666278851215,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_165000",
+   "step": 165000
+  },
+  {
+   "checkpoint_sha256": "f92d39ee50d74ec086412256eaac09b36d906c7cc1ed0841026687993964a35a",
+   "eligible": true,
+   "metric_value": -1892.004442428929,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_170000",
+   "step": 170000
+  },
+  {
+   "checkpoint_sha256": "a81f5698035a15a98eb3a1ef36eaa2d1f5ec5473220a8506c94a14374fd3576a",
+   "eligible": true,
+   "metric_value": -1925.7165661094568,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_175000",
+   "step": 175000
+  },
+  {
+   "checkpoint_sha256": "3df742f5d1e4ba1cdfbed9268df7b893442dfc8b3fd4ed5959bcb7acced57d6a",
+   "eligible": true,
+   "metric_value": -1915.9591267343562,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_180000",
+   "step": 180000
+  },
+  {
+   "checkpoint_sha256": "477025929c2590e92db847776fccd3d7d0cbdddd1150736830b356140ebc09d2",
+   "eligible": true,
+   "metric_value": -1896.820500196302,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_185000",
+   "step": 185000
+  },
+  {
+   "checkpoint_sha256": "d8d1bbe2f6e8a3ea11502bd5d1a3a06ee03182ff9ef6a419c55d4131915d1d45",
+   "eligible": true,
+   "metric_value": -1876.8533472155639,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_190000",
+   "step": 190000
+  },
+  {
+   "checkpoint_sha256": "d0c688c3d046e442537ac3a7bca3b786de8dd8acb2957e237cf7ef2341643d96",
+   "eligible": true,
+   "metric_value": -1902.7750407808576,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_195000",
+   "step": 195000
+  },
+  {
+   "checkpoint_sha256": "c03bb97fd3380ecbe8751b2c2e65a96b25f9df9ca06fe3845236d84b1e448e21",
+   "eligible": true,
+   "metric_value": -1906.4802560226242,
+   "reasons": [],
+   "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_200000",
+   "step": 200000
+  }
+ ],
+ "configuration_provenance": {
+  "configuration_sha256": "378b6c449cc1fa3e09f2fecba78c979292261a8890ff21a48e4262822df62bcf",
+  "evaluation_manifest": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_20000/run_manifest.json",
+  "evaluation_manifest_sha256": "d6e8b7821d82afca5e0dea40d88b8a9d331b82594849fa25658f983f82af33e3",
+  "input_files": {
+   "bus_data": "1483c50239b9948acf85cd16f4bb61a811f2b8f8bf0910ee5272a53413cde73e",
+   "dess_buses": "fb0ab68f296d986654f04cabd6bdb502fee17b926deea9566444b4d60a2862e2",
+   "graph_sequence": null,
+   "gridtensor_bus_data": "e49e332471612764c95d90d868f3cdd2f5655732c6bc3518d55cd32bf84f59f5",
+   "gridtensor_line_data": "86fee34bd7ec3a680b7860faa1ce0522ff3feeda2ace49e8db90a9b48ca928fd",
+   "line_data": "94a64294a9c2efa15be52c1fb416be47ef228ad1f100eec978aa038eb059966e",
+   "processed_time_series": "d41d021fb9f900221b905df84f4e5e56e41f2261296c987f0d12fb780c7a1e60"
+  },
+  "interface_identity": {
+   "agent_obs_dim": 10,
+   "agent_obs_features": [
+    "time",
+    "price",
+    "soc",
+    "voltage_pu",
+    "load_kw",
+    "pv_kw",
+    "previous_action",
+    "feeder_grid_import_kw",
+    "feeder_voltage_deviation",
+    "feeder_curtailment_kw"
+   ],
+   "dess_buses": [
+    13,
+    15,
+    17,
+    19,
+    21,
+    23,
+    25,
+    26,
+    64
+   ],
+   "node_feature_dim": 7,
+   "node_features": [
+    "time",
+    "price",
+    "load_kw",
+    "pv_kw",
+    "soc_masked",
+    "voltage_pu",
+    "dess_indicator"
+   ],
+   "num_buses": 69
+  },
+  "normalization_sha256": "8243e3a2fcee881964f0237dfcc7c311dc9c67676a7c519a5c412fd15302df4a",
+  "source_files_sha256": "8febcb8a327b3121a70120c87f90917a1314e28a78f651d16c59a9d60563b527",
+  "source_revision": "439d347e757e66fc6d938df4ff332df8796d16b9"
+ },
+ "created_utc": "2026-11-09T00:59:02.307673+00:00",
+ "data_split": "val",
+ "eligibility": "all scheduled episodes completed and failure-free; eligible_checkpoint_rows aggregate rule",
+ "feeder": "ieee69",
+ "metric": "mean over the S-SEL-v1 validation days of the episode total_reward_mean (valid episodes only)",
+ "model": "mlp_a1",
+ "reliability": {
+  "bootstrap_resamples": 2000,
+  "bootstrap_seed": 20261021,
+  "bootstrap_top1_frequency": 0.976,
+  "runner_up_gap": 3.5498080123045868,
+  "runner_up_paired_se": 1.7947856337473278,
+  "runner_up_step": 60000
+ },
+ "run": "seed_1",
+ "run_purpose": "checkpoint_selection",
+ "schedule": {
+  "episodes": [
+   {
+    "end_time": "2018-10-01 23:45:00+00:00",
+    "episode_id": "val_2018-10-01",
+    "seed": 20261000,
+    "start_index": 26208,
+    "start_time": "2018-10-01 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-02 23:45:00+00:00",
+    "episode_id": "val_2018-10-02",
+    "seed": 20261001,
+    "start_index": 26304,
+    "start_time": "2018-10-02 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-03 23:45:00+00:00",
+    "episode_id": "val_2018-10-03",
+    "seed": 20261002,
+    "start_index": 26400,
+    "start_time": "2018-10-03 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-04 23:45:00+00:00",
+    "episode_id": "val_2018-10-04",
+    "seed": 20261003,
+    "start_index": 26496,
+    "start_time": "2018-10-04 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-05 23:45:00+00:00",
+    "episode_id": "val_2018-10-05",
+    "seed": 20261004,
+    "start_index": 26592,
+    "start_time": "2018-10-05 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-06 23:45:00+00:00",
+    "episode_id": "val_2018-10-06",
+    "seed": 20261005,
+    "start_index": 26688,
+    "start_time": "2018-10-06 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-07 23:45:00+00:00",
+    "episode_id": "val_2018-10-07",
+    "seed": 20261006,
+    "start_index": 26784,
+    "start_time": "2018-10-07 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-08 23:45:00+00:00",
+    "episode_id": "val_2018-10-08",
+    "seed": 20261007,
+    "start_index": 26880,
+    "start_time": "2018-10-08 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-09 23:45:00+00:00",
+    "episode_id": "val_2018-10-09",
+    "seed": 20261008,
+    "start_index": 26976,
+    "start_time": "2018-10-09 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-10 23:45:00+00:00",
+    "episode_id": "val_2018-10-10",
+    "seed": 20261009,
+    "start_index": 27072,
+    "start_time": "2018-10-10 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-11 23:45:00+00:00",
+    "episode_id": "val_2018-10-11",
+    "seed": 20261010,
+    "start_index": 27168,
+    "start_time": "2018-10-11 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-12 23:45:00+00:00",
+    "episode_id": "val_2018-10-12",
+    "seed": 20261011,
+    "start_index": 27264,
+    "start_time": "2018-10-12 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-13 23:45:00+00:00",
+    "episode_id": "val_2018-10-13",
+    "seed": 20261012,
+    "start_index": 27360,
+    "start_time": "2018-10-13 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-14 23:45:00+00:00",
+    "episode_id": "val_2018-10-14",
+    "seed": 20261013,
+    "start_index": 27456,
+    "start_time": "2018-10-14 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-15 23:45:00+00:00",
+    "episode_id": "val_2018-10-15",
+    "seed": 20261014,
+    "start_index": 27552,
+    "start_time": "2018-10-15 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-16 23:45:00+00:00",
+    "episode_id": "val_2018-10-16",
+    "seed": 20261015,
+    "start_index": 27648,
+    "start_time": "2018-10-16 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-17 23:45:00+00:00",
+    "episode_id": "val_2018-10-17",
+    "seed": 20261016,
+    "start_index": 27744,
+    "start_time": "2018-10-17 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-18 23:45:00+00:00",
+    "episode_id": "val_2018-10-18",
+    "seed": 20261017,
+    "start_index": 27840,
+    "start_time": "2018-10-18 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-19 23:45:00+00:00",
+    "episode_id": "val_2018-10-19",
+    "seed": 20261018,
+    "start_index": 27936,
+    "start_time": "2018-10-19 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-20 23:45:00+00:00",
+    "episode_id": "val_2018-10-20",
+    "seed": 20261019,
+    "start_index": 28032,
+    "start_time": "2018-10-20 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-21 23:45:00+00:00",
+    "episode_id": "val_2018-10-21",
+    "seed": 20261020,
+    "start_index": 28128,
+    "start_time": "2018-10-21 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-22 23:45:00+00:00",
+    "episode_id": "val_2018-10-22",
+    "seed": 20261021,
+    "start_index": 28224,
+    "start_time": "2018-10-22 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-23 23:45:00+00:00",
+    "episode_id": "val_2018-10-23",
+    "seed": 20261022,
+    "start_index": 28320,
+    "start_time": "2018-10-23 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-24 23:45:00+00:00",
+    "episode_id": "val_2018-10-24",
+    "seed": 20261023,
+    "start_index": 28416,
+    "start_time": "2018-10-24 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-25 23:45:00+00:00",
+    "episode_id": "val_2018-10-25",
+    "seed": 20261024,
+    "start_index": 28512,
+    "start_time": "2018-10-25 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-26 23:45:00+00:00",
+    "episode_id": "val_2018-10-26",
+    "seed": 20261025,
+    "start_index": 28608,
+    "start_time": "2018-10-26 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-27 23:45:00+00:00",
+    "episode_id": "val_2018-10-27",
+    "seed": 20261026,
+    "start_index": 28704,
+    "start_time": "2018-10-27 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-28 23:45:00+00:00",
+    "episode_id": "val_2018-10-28",
+    "seed": 20261027,
+    "start_index": 28800,
+    "start_time": "2018-10-28 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-29 23:45:00+00:00",
+    "episode_id": "val_2018-10-29",
+    "seed": 20261028,
+    "start_index": 28896,
+    "start_time": "2018-10-29 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-30 23:45:00+00:00",
+    "episode_id": "val_2018-10-30",
+    "seed": 20261029,
+    "start_index": 28992,
+    "start_time": "2018-10-30 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-10-31 23:45:00+00:00",
+    "episode_id": "val_2018-10-31",
+    "seed": 20261030,
+    "start_index": 29088,
+    "start_time": "2018-10-31 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-01 23:45:00+00:00",
+    "episode_id": "val_2018-11-01",
+    "seed": 20261031,
+    "start_index": 29184,
+    "start_time": "2018-11-01 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-02 23:45:00+00:00",
+    "episode_id": "val_2018-11-02",
+    "seed": 20261032,
+    "start_index": 29280,
+    "start_time": "2018-11-02 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-03 23:45:00+00:00",
+    "episode_id": "val_2018-11-03",
+    "seed": 20261033,
+    "start_index": 29376,
+    "start_time": "2018-11-03 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-04 23:45:00+00:00",
+    "episode_id": "val_2018-11-04",
+    "seed": 20261034,
+    "start_index": 29472,
+    "start_time": "2018-11-04 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-05 23:45:00+00:00",
+    "episode_id": "val_2018-11-05",
+    "seed": 20261035,
+    "start_index": 29568,
+    "start_time": "2018-11-05 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-06 23:45:00+00:00",
+    "episode_id": "val_2018-11-06",
+    "seed": 20261036,
+    "start_index": 29664,
+    "start_time": "2018-11-06 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-07 23:45:00+00:00",
+    "episode_id": "val_2018-11-07",
+    "seed": 20261037,
+    "start_index": 29760,
+    "start_time": "2018-11-07 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-08 23:45:00+00:00",
+    "episode_id": "val_2018-11-08",
+    "seed": 20261038,
+    "start_index": 29856,
+    "start_time": "2018-11-08 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-09 23:45:00+00:00",
+    "episode_id": "val_2018-11-09",
+    "seed": 20261039,
+    "start_index": 29952,
+    "start_time": "2018-11-09 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-10 23:45:00+00:00",
+    "episode_id": "val_2018-11-10",
+    "seed": 20261040,
+    "start_index": 30048,
+    "start_time": "2018-11-10 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-11 23:45:00+00:00",
+    "episode_id": "val_2018-11-11",
+    "seed": 20261041,
+    "start_index": 30144,
+    "start_time": "2018-11-11 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-12 23:45:00+00:00",
+    "episode_id": "val_2018-11-12",
+    "seed": 20261042,
+    "start_index": 30240,
+    "start_time": "2018-11-12 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-13 23:45:00+00:00",
+    "episode_id": "val_2018-11-13",
+    "seed": 20261043,
+    "start_index": 30336,
+    "start_time": "2018-11-13 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-14 23:45:00+00:00",
+    "episode_id": "val_2018-11-14",
+    "seed": 20261044,
+    "start_index": 30432,
+    "start_time": "2018-11-14 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-15 23:45:00+00:00",
+    "episode_id": "val_2018-11-15",
+    "seed": 20261045,
+    "start_index": 30528,
+    "start_time": "2018-11-15 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-16 23:45:00+00:00",
+    "episode_id": "val_2018-11-16",
+    "seed": 20261046,
+    "start_index": 30624,
+    "start_time": "2018-11-16 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-17 23:45:00+00:00",
+    "episode_id": "val_2018-11-17",
+    "seed": 20261047,
+    "start_index": 30720,
+    "start_time": "2018-11-17 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-18 23:45:00+00:00",
+    "episode_id": "val_2018-11-18",
+    "seed": 20261048,
+    "start_index": 30816,
+    "start_time": "2018-11-18 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-19 23:45:00+00:00",
+    "episode_id": "val_2018-11-19",
+    "seed": 20261049,
+    "start_index": 30912,
+    "start_time": "2018-11-19 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-20 23:45:00+00:00",
+    "episode_id": "val_2018-11-20",
+    "seed": 20261050,
+    "start_index": 31008,
+    "start_time": "2018-11-20 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-21 23:45:00+00:00",
+    "episode_id": "val_2018-11-21",
+    "seed": 20261051,
+    "start_index": 31104,
+    "start_time": "2018-11-21 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-22 23:45:00+00:00",
+    "episode_id": "val_2018-11-22",
+    "seed": 20261052,
+    "start_index": 31200,
+    "start_time": "2018-11-22 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-23 23:45:00+00:00",
+    "episode_id": "val_2018-11-23",
+    "seed": 20261053,
+    "start_index": 31296,
+    "start_time": "2018-11-23 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-24 23:45:00+00:00",
+    "episode_id": "val_2018-11-24",
+    "seed": 20261054,
+    "start_index": 31392,
+    "start_time": "2018-11-24 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-25 23:45:00+00:00",
+    "episode_id": "val_2018-11-25",
+    "seed": 20261055,
+    "start_index": 31488,
+    "start_time": "2018-11-25 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-26 23:45:00+00:00",
+    "episode_id": "val_2018-11-26",
+    "seed": 20261056,
+    "start_index": 31584,
+    "start_time": "2018-11-26 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-27 23:45:00+00:00",
+    "episode_id": "val_2018-11-27",
+    "seed": 20261057,
+    "start_index": 31680,
+    "start_time": "2018-11-27 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-28 23:45:00+00:00",
+    "episode_id": "val_2018-11-28",
+    "seed": 20261058,
+    "start_index": 31776,
+    "start_time": "2018-11-28 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-29 23:45:00+00:00",
+    "episode_id": "val_2018-11-29",
+    "seed": 20261059,
+    "start_index": 31872,
+    "start_time": "2018-11-29 00:00:00+00:00"
+   },
+   {
+    "end_time": "2018-11-30 23:45:00+00:00",
+    "episode_id": "val_2018-11-30",
+    "seed": 20261060,
+    "start_index": 31968,
+    "start_time": "2018-11-30 00:00:00+00:00"
+   }
+  ],
+  "schedule_id": "S-SEL-v1",
+  "sha256": "98785846fd1165303d5ad9dd73c870c11b7542bcb600f6cd55386f7422fc6448"
+ },
+ "schema": "gmarl-checkpoint-selection/1",
+ "selected": {
+  "checkpoint_path": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/training/checkpoints/maddpg_step_20000.pt",
+  "checkpoint_sha256": "c11d9e702bf31a3f1eaa73ab8c867adfc5c2523ddc6aaec8b475e6e090784845",
+  "metric_value": -1850.5415141032179,
+  "result_dir": "results/soc_feasible_affine_v2/ieee69/mlp/A1/seed_1/selection_sweep/step_20000",
+  "step": 20000
+ },
+ "selection_id": "ieee69_mlp_a1_seed_1_v1_20261109T005902Z",
+ "supersedes": null,
+ "topology": "TP1",
+ "version": 1
+}

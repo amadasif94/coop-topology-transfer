@@ -1,0 +1,20 @@
+{
+  "runs": {
+    "0": {
+      "baseline_training_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee33/mlp/mlp_run_0/run_manifest.json",
+      "baseline_evaluation_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/topology_generalization/csv/mlp_ieee33_tp_full_eval_run0_best/run_manifest.json",
+      "selections": {}
+    },
+    "1": {
+      "baseline_training_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee33/mlp/mlp_run_1/run_manifest.json",
+      "baseline_evaluation_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/topology_generalization/csv/mlp_ieee33_tp_full_eval_run1_best/run_manifest.json",
+      "selections": {}
+    },
+    "2": {
+      "baseline_training_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/checkpoints/maddpg_ieee33/mlp/mlp_run_2/run_manifest.json",
+      "baseline_evaluation_manifest": "/network/rit/lab/dahlin_lab/amad/graph_marl_dess/results/topology_generalization/csv/mlp_ieee33_tp_full_eval_run2_best/run_manifest.json",
+      "selections": {}
+    }
+  },
+  "analysis_arguments": []
+}

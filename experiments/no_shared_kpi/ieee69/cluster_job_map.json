@@ -1,0 +1,20 @@
+{
+  "feeder": "IEEE69",
+  "runs": {
+    "0": {
+      "baseline_training_manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_0/run_manifest.json",
+      "baseline_training_manifest_sha256": "ae9e5caeed4cf45c36aa9355de758752a5f19fbd651218a451a5a3560c148137",
+      "selections": {}
+    },
+    "1": {
+      "baseline_training_manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_1/run_manifest.json",
+      "baseline_training_manifest_sha256": "a4384d98ee0bacf09a04e1a32880abb1f1c9abb8259c7d709cb3e0d78e885f86",
+      "selections": {}
+    },
+    "2": {
+      "baseline_training_manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_2/run_manifest.json",
+      "baseline_training_manifest_sha256": "f33dc7b279b60c525560de2ad3f81fadac97f200517de9edf7469b2e66801176",
+      "selections": {}
+    }
+  }
+}

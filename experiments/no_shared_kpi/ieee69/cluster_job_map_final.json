@@ -1,0 +1,71 @@
+{
+  "feeder": "IEEE69",
+  "runs": {
+    "0": {
+      "baseline_training_manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_0/run_manifest.json",
+      "baseline_training_manifest_sha256": "ae9e5caeed4cf45c36aa9355de758752a5f19fbd651218a451a5a3560c148137",
+      "selections": {
+        "no_shared_kpi": "results/ablations/ieee69/no_shared_kpi/run_0/selections/ieee69/no_shared_kpi/run_0/ieee69_no_shared_kpi_run_0_v1_20261027T070219Z/selection.json",
+        "no_centralized_critic": "results/ablations/ieee69/no_centralized_critic/run_0/selections/ieee69/no_centralized_critic/run_0/ieee69_no_centralized_critic_run_0_v1_20261027T070252Z/selection.json"
+      },
+      "baseline_evaluation_manifests": [
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_0_v1_20261024T210804Z/run_manifest.json",
+          "sha256": "a6ba5ccd93604d12585964fe83317c1f6eba0c27638acfd28a12f43e7cc38fb8"
+        },
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_0_v1_20261024T210804Z_tp8_tp9_20261025T011115Z/run_manifest.json",
+          "sha256": "147eea1eb3dc2793d4dc3a791a66977e450ddca692de1b2df67ab509fda61537"
+        },
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_0_v1_20261024T210804Z_tp10_synthetic_20261025T022649Z/run_manifest.json",
+          "sha256": "0f1739c6b86b59c9a18644e61709574c1f3fc25d64001484bc077b020431c17a"
+        }
+      ]
+    },
+    "1": {
+      "baseline_training_manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_1/run_manifest.json",
+      "baseline_training_manifest_sha256": "a4384d98ee0bacf09a04e1a32880abb1f1c9abb8259c7d709cb3e0d78e885f86",
+      "selections": {
+        "no_shared_kpi": "results/ablations/ieee69/no_shared_kpi/run_1/selections/ieee69/no_shared_kpi/run_1/ieee69_no_shared_kpi_run_1_v1_20261027T070413Z/selection.json",
+        "no_centralized_critic": "results/ablations/ieee69/no_centralized_critic/run_1/selections/ieee69/no_centralized_critic/run_1/ieee69_no_centralized_critic_run_1_v1_20261027T070039Z/selection.json"
+      },
+      "baseline_evaluation_manifests": [
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_1_v1_20261024T210812Z/run_manifest.json",
+          "sha256": "72ffc5bc68bef6affdd975ca02c4dc9fed306deb35c244b419bed733a0f062fb"
+        },
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_1_v1_20261024T210812Z_tp8_tp9_20261025T011115Z/run_manifest.json",
+          "sha256": "0aee24e6bf4781336c37948024084621f22e2addeb832add6f8109fc9f755822"
+        },
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_1_v1_20261024T210812Z_tp10_synthetic_20261025T022649Z/run_manifest.json",
+          "sha256": "a3bdf0e7e98507da5e4dee48e62023143d5162cc49061d6d9bf7aafb027ba32e"
+        }
+      ]
+    },
+    "2": {
+      "baseline_training_manifest": "results/checkpoints/maddpg_ieee69/mlp/mlp_run_2/run_manifest.json",
+      "baseline_training_manifest_sha256": "f33dc7b279b60c525560de2ad3f81fadac97f200517de9edf7469b2e66801176",
+      "selections": {
+        "no_shared_kpi": "results/ablations/ieee69/no_shared_kpi/run_2/selections/ieee69/no_shared_kpi/run_2/ieee69_no_shared_kpi_run_2_v1_20261027T083257Z/selection.json",
+        "no_centralized_critic": "results/ablations/ieee69/no_centralized_critic/run_2/selections/ieee69/no_centralized_critic/run_2/ieee69_no_centralized_critic_run_2_v1_20261027T071145Z/selection.json"
+      },
+      "baseline_evaluation_manifests": [
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_2_v1_20261024T210819Z/run_manifest.json",
+          "sha256": "4ba9831f6a6f802778d389c08231a7cc6c7983f44b168eb2872773ba7a227e2b"
+        },
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_2_v1_20261024T210819Z_tp8_tp9_20261025T011115Z/run_manifest.json",
+          "sha256": "43593fda5ca637e5f0d37aa841d47ef31cde41a40ae451be4b133ef87477f5e8"
+        },
+        {
+          "path": "results/topology_generalization/csv_ieee69/final/ieee69/mlp/ieee69_mlp_run_2_v1_20261024T210819Z_tp10_synthetic_20261025T022649Z/run_manifest.json",
+          "sha256": "1b3a96eef4f3781c8051f3d62fee343527026954e54e7b8594c278a426689bb4"
+        }
+      ]
+    }
+  }
+}

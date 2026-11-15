@@ -1,0 +1,21 @@
+test_all_new_python_parses (experiments.no_shared_kpi.validation.ProtocolTests.test_all_new_python_parses) ... ok
+test_analysis_sign_pairing_and_no_overwrite (experiments.no_shared_kpi.validation.ProtocolTests.test_analysis_sign_pairing_and_no_overwrite) ... ok
+test_baseline_requires_saved_200k_configuration (experiments.no_shared_kpi.validation.ProtocolTests.test_baseline_requires_saved_200k_configuration) ... ok
+test_manifest_drift_and_same_topology_required (experiments.no_shared_kpi.validation.ProtocolTests.test_manifest_drift_and_same_topology_required) ... ok
+test_missing_provenance_rejected (experiments.no_shared_kpi.validation.ProtocolTests.test_missing_provenance_rejected) ... ok
+test_observation_semantics_and_dimensions (experiments.no_shared_kpi.validation.ProtocolTests.test_observation_semantics_and_dimensions) ... ok
+test_original_files_unchanged (experiments.no_shared_kpi.validation.ProtocolTests.test_original_files_unchanged) ... ok
+test_paired_bootstrap_exact_constant (experiments.no_shared_kpi.validation.ProtocolTests.test_paired_bootstrap_exact_constant) ... ok
+test_selection_rejects_december_and_unseen_topologies (experiments.no_shared_kpi.validation.ProtocolTests.test_selection_rejects_december_and_unseen_topologies) ... ok
+test_shared_day_clusters_not_93_independent_samples (experiments.no_shared_kpi.validation.ProtocolTests.test_shared_day_clusters_not_93_independent_samples) ... ok
+test_stored_energy_sign_units_and_missing (experiments.no_shared_kpi.validation.ProtocolTests.test_stored_energy_sign_units_and_missing) ... ok
+test_a1_actor_kpi_invariance_and_critic_full_joint_inputs (experiments.no_shared_kpi.validation.ModelTests.test_a1_actor_kpi_invariance_and_critic_full_joint_inputs) ... skipped 'PyTorch is not installed in this local runtime; execute on RIT'
+test_a2_original_actors_and_strict_local_critics (experiments.no_shared_kpi.validation.ModelTests.test_a2_original_actors_and_strict_local_critics) ... skipped 'PyTorch is not installed in this local runtime; execute on RIT'
+test_checkpoint_spec_roundtrip_and_wrong_ablation_refused (experiments.no_shared_kpi.validation.ModelTests.test_checkpoint_spec_roundtrip_and_wrong_ablation_refused) ... skipped 'PyTorch is not installed in this local runtime; execute on RIT'
+test_independent_bellman_targets_use_own_reward_and_terminal_mask (experiments.no_shared_kpi.validation.ModelTests.test_independent_bellman_targets_use_own_reward_and_terminal_mask) ... skipped 'PyTorch is not installed in this local runtime; execute on RIT'
+test_trainer_reuses_original_replay_and_learning_loop (experiments.no_shared_kpi.validation.ModelTests.test_trainer_reuses_original_replay_and_learning_loop) ... skipped 'PyTorch is not installed in this local runtime; execute on RIT'
+
+----------------------------------------------------------------------
+Ran 16 tests in 6.331s
+
+OK (skipped=5)
