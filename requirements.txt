@@ -1,0 +1,14 @@
+
+# Core MADDPG training and evaluation
+torch==2.9.1
+numpy==2.2.5
+pandas==2.3.3
+scipy==1.15.3
+gymnasium==0.29.1
+
+# Data processing and plotting
+pyarrow==20.0.0
+matplotlib==3.10.8
+
+# Optional: Gurobi F-MPC benchmark requires gurobipy and a valid license.
+# Optional: Regenerating forecast models requires autogluon.tabular.
